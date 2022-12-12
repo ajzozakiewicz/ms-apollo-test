@@ -25,12 +25,12 @@ const books = [
   {
     title: 'The Awakening',
     author: 'Kate Chopin',
-    pulishDate: '01-01-2020'
+    publishDate: '01-01-2020'
   },
   {
     title: 'City of Glass',
     author: 'Paul Auster',
-    pulishDate: '01-01-2020'
+    publishDate: '01-01-2020'
   }
 ]
 
