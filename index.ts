@@ -11,6 +11,7 @@ const typeDefs = `#graphql
   type Book {
     title: String
     author: String
+    publishDate: String
   }
 
   # The "Query" type is special: it lists all of the available queries that
@@ -23,11 +24,13 @@ const typeDefs = `#graphql
 const books = [
   {
     title: 'The Awakening',
-    author: 'Kate Chopin'
+    author: 'Kate Chopin',
+    pulishDate: '01-01-2020'
   },
   {
     title: 'City of Glass',
-    author: 'Paul Auster'
+    author: 'Paul Auster',
+    pulishDate: '01-01-2020'
   }
 ]
 
